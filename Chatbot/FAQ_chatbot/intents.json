@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through apple's stock FAQ"],
+         "context": [""]
+        },
+        {"tag": "Stock-Price",
+         "patterns": ["price", "How can I get the current Apple stock price?", "Stock Price", "Apple Stock Price", "Tell me abou the Stock"],
+         "responses": ["A https://investor.apple.com/stock-price/default.aspx as well as other information regarding Apple stock is provided by Ticker Technologies"],
+         "context": [""]
+        },
+        {"tag": "Cash-Dividend",
+         "patterns": ["Does Apple pay a cash dividend?", "Dividend", "Dividend percent", "Do you have cash dividend?"],
+         "responses": ["Yes. Learn more about Apple’s dividend history. Learn more about Apple’s dividend history. https://investor.apple.com/dividend-history/default.aspx"],
+         "context": [""]
+        },
+        {"tag": "IPO",
+         "patterns": ["What exchange does Apple stock trade on?", "Where is apple trade on?", "APPL Market"],
+         "responses": ["Apple stock is traded on the NASDAQ Global Select Market under the ticker symbol AAPL."],
+         "context": [""]
+        },
+        {"tag": "Stock-Split",
+         "patterns": ["How many times has Apple’s stock split?", "APPL Stock Split", "Apple Stock Split", "Tell me about the Stock-Split"],
+         "responses": ["Apple’s stock has split five times since the company went public. The stock split on a 4-for-1 basis on August 28, 2020, a 7-for-1 basis on June 9, 2014, and split on a 2-for-1 basis on February 28, 2005, June 21, 2000, and June 16, 1987.."],
+         "context": [""]
+        }
+    
+    
+    
+    
+
+   ]
+}

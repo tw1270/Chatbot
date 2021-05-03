@@ -1,0 +1,162 @@
+version: "2.0"
+
+nlu:
+## intent:check_in
+- What are your check-in timings?
+- check-in timings of your hotel?
+- can you tell me the check-in timing of your hotel?
+- Is there any check-in timing of hotel?
+- When is the check-in time?
+- check-in time
+
+## intent:check_out
+- When is the check-out time?
+- check-out time
+- What are your check-out timings?
+- check-out timings of your hotel is?
+- can you tell me the check-out timing of your hotel?
+- Is there any check-out timing of hotel?
+
+## intent:cancel_resr
+- Cancel reservation
+- How do I cancel a reservation?
+- Procedure of cancel a hotel?
+- Please cancel my reservation.
+- Can you please cancel my reservation?
+
+## intent:can_policy
+- What is your cancellation policy?
+- can you tell me about the cancellation policy of your hotel?
+- cancellation policy of your hotel?
+- Is there any cancellation policy of your hotel?
+- cancellation policy of your hotel?
+- cancellation policy
+
+## intent:restaurant
+- restaurant?
+- Does the hotel have a restaurant?
+- Is there any restaurant in hotel?
+- Any facilities of restaurant in hotel?
+- any restaurant in hotel?
+- did any restaurant in hotel?
+
+## intent:breakfast
+- Does the hotel offer breakfast?
+- Any idea about breakfast offer by hotel?
+- any complementary breakfast offer by hotel?
+- Breakfast offer by hotel?
+- breakfast provided by hote?
+
+## intent:break_time
+- breakfast time
+- What are the breakfast timings?
+- Is there any breakfast timing?
+- can you tell me the breakfast timing of hotel?
+- breakfast timing?
+- what is the breakfast timing of the hotel?
+
+## intent:rest_time
+- What are the timings of your restaurant?
+- Is there any timing of your restaurant?
+- timing of your restaurant?
+- can you tell me the restaurant timing of your hotel?
+
+## intent:clean_now
+- can you send someone right now for cleaning
+- send someone right now
+- right now 
+- i prefer right now
+- please clean my room right now
+
+## intent:clean
+- i want to clean my room
+- can you send someone to clean my room
+- send room service
+- clean my room 
+- send someone to clean my room
+
+## intent:double
+- i need a double room
+- i want a double room
+- double room
+- i am looking for double room
+- can i get the double room
+
+## intent:single
+- i need a single room
+- i want a single room
+- single room
+- i am looking for single room
+- can i get the single room
+
+## intent:num_room
+- I need [2](number) rooms
+- is [3](number) room available
+- [4](number) rooms
+- can i get [3](number) rooms
+- i want [3](number) rooms
+
+
+## intent:book_room
+- i want to book a room
+- i need a room
+- i am looking for a room
+- is there any room available
+- is there any room empty
+- book a room for a night
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?

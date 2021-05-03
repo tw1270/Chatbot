@@ -1,0 +1,92 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - book_room
+  - num_room
+  - single
+  - double
+  - clean
+  - clean_now
+  - check_in
+  - check_out
+  - cancel_resr
+  - can_policy
+  - restaurant
+  - breakfast
+  - break_time
+  - rest_time
+
+responses:
+  utter_can_policy:
+  - text: "The booking deposit is refundable if the cancellation occurs at least 15 days before arrival.For cancellations made after this limit, a penalty will be imposed based on the cancellation policy."
+
+  utter_restaurant:
+  - text: "Yes, the hotel has a restaurant called the Zephyr Bar. With our menu we strive to reflect the historic art and the spirit of our neighborhood by offering a glimpse into what makes our area unique."
+  
+  utter_breakfast:
+  - text: "The hotel provides its guests with a free made-to-order breakfast each morning."
+
+  utter_break_time:
+  - text: "Monday through Friday breakfast is 6 am to 9 am. On Saturday and Sunday, we are open from 7 am to 10:30 am."
+  
+  utter_rest_time:
+  - text: "Our restaurant serves a dazzling 24-hour menu."
+
+  utter_check_in:
+  - text: "Check-in time starts at 4 PM. Minimum check-in age is 21.Please contact the reception for early check-in requests."
+
+  utter_check_out:
+  - text: "Check-out time is 11 AM. Please contact the reception for late checkout requests."
+  
+  utter_cancel_resr:
+  - text: "To cancel a reservation, select the “Reservations” link from the homepage."
+
+  utter_clean_now:
+  - text: "Sure, I will send someone to your room right now"
+
+  utter_clean:
+  - text: "When should I arrange the cleaning?"
+  
+  utter_double:
+  - text: "You are booking a double room"
+
+  utter_single:
+  - text: "You are booking a single room"
+
+  utter_num_room:
+  - text: "what type of room would you want to book -Single room or Double room?"
+
+  utter_book_room:
+  - text: "Which many rooms would you like to book?"
+  
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+entities:
+  - number
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
