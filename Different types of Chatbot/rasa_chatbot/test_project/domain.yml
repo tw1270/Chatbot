@@ -25,7 +25,7 @@ intents:
 
 responses:
   utter_can_policy:
-  - text: "The booking deposit is refundable if the cancellation occurs at least 15 days before arrival.For cancellations made after this limit, a penalty will be imposed based on the cancellation policy."
+  - text: "The booking deposit is refundable if the cancellation occurs at least 15 days before arrival."
 
   utter_restaurant:
   - text: "Yes, the hotel has a restaurant called the Zephyr Bar. With our menu we strive to reflect the historic art and the spirit of our neighborhood by offering a glimpse into what makes our area unique."
