@@ -3,8 +3,6 @@
 
 May 03, 2021
 
-Here is the link to presentation of the project https://www.youtube.com/watch?v=cg_5bDdfCSw&ab_channel=tenzinwangdu
-
 ## Table of Contents
 ---
 - [Background](#Background)
